@@ -28,3 +28,24 @@ git pull origin main --allow-unrelated-histories   # if remote already has files
 git push -u origin main
 
 ```
+```
+pyenv
+```
+```
+ poetry
+```
+```
+poetry new demo
+```
+```
+poetry add fastapi uvicorn[standard] sqlalchemy[asyncio] asyncpg redis
+```
+
+```
+Invoke-Expression (poetry env activate)
+```
+```
+poetry add
+poetry install
+poetry shell
+```
